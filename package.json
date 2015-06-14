@@ -1,0 +1,24 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "bin": {
+    "metrify":"./bin/cli"
+  },
+  "scripts": {
+    "deps": "./bin/deps.sh",
+    "proxy": "./bin/proxy.sh",
+    "selenium": "./bin/selenium.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browsermob-proxy": "^1.0.8",
+    "console.table": "^0.4.0",
+    "minimist": "^1.1.1",
+    "webdriverio": "^2.4.5",
+    "xtend": "^4.0.0"
+  }
+}
